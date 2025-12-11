@@ -1,0 +1,14 @@
+incremental:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: wqc24105.us-east-1
+      user: deeprads
+      password: Snowflakedeeprads007
+      role: accountadmin
+      database: retail_db
+      warehouse: compute_wh 
+      schema: model
+      
+   
