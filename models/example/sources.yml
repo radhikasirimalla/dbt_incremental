@@ -9,6 +9,6 @@ sources:
       - name: sales
         description: sales_data
         columns:
-          - name: sale_date
+          - name: customer_id
             tests:
               - not_null
